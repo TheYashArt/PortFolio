@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import profile from './assets/Image.jpg';
 import { Github, Linkedin, Mail, Phone, ChevronDown, Code, Database, BarChart3, Sparkles, Target, Send } from 'lucide-react';
 
 export default function Portfolio() {
@@ -174,7 +175,7 @@ export default function Portfolio() {
               <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500 via-purple-500 to-fuchsia-500 rounded-2xl blur opacity-75 group-hover:opacity-100 transition duration-1000 animate-pulse"></div>
               <div className="relative w-80 h-80 bg-slate-800 rounded-2xl overflow-hidden flex items-center justify-center border-2 border-slate-700">
                 {/* Replace this div with your actual photo */}
-                 <img src='../Image.jpg' alt='profile' className='w-80 h-80'/>
+                 <img src={profile} alt='profile' className='w-80 h-80'/>
               </div>
             </div>
           </div>
